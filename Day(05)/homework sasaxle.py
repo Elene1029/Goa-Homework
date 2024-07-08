@@ -319,15 +319,6 @@ end_fill()
  
 
 penup()
-goto(80,80)
-pendown()
-
-begin_fill()
-color("tan")
-circle(30)
-end_fill()
-
-penup()
 goto(-130,80)
 pendown()
 
@@ -337,8 +328,26 @@ circle(30)
 end_fill()
 
 penup()
+goto(80,80)
+pendown()
+
+
+
+begin_fill()
+color("tan")
+circle(30)
+end_fill()
+
+
+penup()
+goto(80,80)
+pendown()
+
+
+penup()
 goto(-80,115)
 pendown()
+
 
 begin_fill()
 color("yellow")
@@ -366,11 +375,12 @@ right(40)
 end_fill()
 
 penup()
-goto(80,80)
+goto(90,110)
 pendown()
 
 
-
+color("black")
+left(80)
 
 
 
