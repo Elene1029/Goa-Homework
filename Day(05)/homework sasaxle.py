@@ -6,7 +6,7 @@ from turtle import *
 #we wont to pain a castel
 
 
-speed(15)
+speed(30)
 
 
 penup()
@@ -309,17 +309,164 @@ right(90)
 end_fill()
 
 penup()
-goto(290,290)
+goto(-370,130)
 pendown()
 
 begin_fill()
-color("gold")
+color("green")
+right(150)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+
+forward(120)
+left(120)
+
+
+forward(140)
+left(110)
+
+
+forward(110)
+right(110)
+
+
+
+forward(180)
+left(120)
+
+
+forward(150)
+right(110)
+
+
+forward(90)
+left(110)
+
+
+forward(150)
+left(120)
+
+forward(100)
+end_fill()
+
+
+penup()
+goto(-370,130)
+pendown()
+
+begin_fill()
+color("brown")
+right(240)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+left(120)
+
+forward(100)
+
+
+forward(120)
+left(120)
+end_fill()
+
+penup()
+goto(575,130)
+pendown()
+
+begin_fill()
+color("green")
+right(0)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+
+forward(120)
+left(120)
+
+
+forward(140)
+left(110)
+
+
+forward(110)
+right(110)
+
+
+
+forward(180)
+left(120)
+
+
+forward(150)
+right(110)
+
+
+forward(90)
+left(110)
+
+
+forward(150)
+left(120)
+
+forward(100)
+end_fill()
+
+penup()
+goto(355,130)
+pendown()
+
+begin_fill()
+color("brown")
+right(0)
+
+forward(220)
+
+left(120)
+
+forward(220)
+
+left(120)
+
+forward(100)
+
+
+forward(120)
+left(120)
+end_fill()
+
+penup()
+goto(260,260)
+pendown()
+
+begin_fill()
+color("yellow")
 circle(40)
 end_fill()
  
 
 penup()
-goto(-130,80)
+goto(-100,52)
 pendown()
 
 begin_fill()
@@ -328,7 +475,7 @@ circle(30)
 end_fill()
 
 penup()
-goto(80,80)
+goto(105,50)
 pendown()
 
 
@@ -339,11 +486,8 @@ circle(30)
 end_fill()
 
 
-penup()
-goto(80,80)
-pendown()
 
-
+right(90)
 penup()
 goto(-80,110)
 pendown()
@@ -379,7 +523,7 @@ goto(90,110)
 pendown()
 
 
-color("black")
+color("red")
 left(80)
 
 penup()
@@ -388,17 +532,17 @@ pendown()
 
 left(50)
 color("yellow")
-forward(60)
+forward(58)
 
 penup()
-goto(110,110)
+goto(105,110)
 pendown()
 
 left(90)
 forward(70)
 
 penup()
-goto(130,140)
+goto(124,140)
 pendown()
 
 left(90)
@@ -433,7 +577,7 @@ forward(95)
 end_fill()
 
 penup()
-goto(370,130)
+goto(370,120)
 pendown()
 
 
@@ -471,7 +615,7 @@ end_fill()
 
 
 penup()
-goto(520,160)
+goto(515,160)
 pendown()
 
 begin_fill()
@@ -543,7 +687,7 @@ forward(95)
 end_fill()
 
 penup()
-goto(-530,140)
+goto(-530,160)
 pendown()
 
 begin_fill()
@@ -551,5 +695,163 @@ color("green")
 circle(65)
 end_fill()
 
+penup()
+goto(-240,250)
+pendown()
+
+
+color("white")
+write("GOA")
+
+
+penup()
+goto(280,-155)
+pendown()
+
+color("green")
+right(90)
+
+forward(50)
+
+penup()
+goto(287,-105)
+pendown()
+
+begin_fill()
+color("pink")
+circle(10)
+end_fill()
+
+penup()
+goto(280,-105)
+pendown()
+
+begin_fill()
+color("yellow")
+circle(2)
+end_fill()
+
+penup()
+goto(450,-155)
+pendown()
+
+color("green")
+right(0)
+
+forward(60)
+
+penup()
+goto(460,-90)
+pendown()
+
+
+begin_fill()
+color("purple")
+circle(10)
+end_fill()
+
+penup()
+goto(452,-90)
+pendown()
+
+color("yellow")
+circle(2)
+
+penup()
+goto(-450,-155)
+pendown()
+
+color("green")
+
+forward(70)
+
+penup()
+goto(-442,-90)
+pendown()
+
+begin_fill()
+color("red")
+circle(10)
+end_fill()
+
+penup()
+goto(-450,-90)
+pendown()
+
+color("yellow")
+circle(2)
+
+penup()
+goto(-290,-155)
+pendown()
+
+color("green")
+
+forward(50)
+
+penup()
+goto(-280,-110)
+pendown()
+
+begin_fill()
+color("blue")
+circle(10)
+end_fill()
+
+penup()
+goto(-287,-110)
+pendown()
+
+color("yellow")
+circle(2)
+
+penup()
+goto(-140,220)
+pendown()
+
+color("black")
+right(120)
+
+forward(10)
+
+left(70)
+forward(10)
+
+penup()
+goto(140,220)
+pendown()
+
+right(110)
+
+forward(10)
+
+left(90)
+forward(10)
+
+penup()
+goto(350,280)
+pendown()
+
+right(80)
+
+forward(10)
+
+left(70)
+forward(10)
+
+penup()
+goto(-590,280)
+pendown()
+
+right(80)
+forward(10)
+
+left(70)
+forward(10)
+
+color("white")
+penup()
+goto(-690,280)
+pendown()
 
 exitonclick()
