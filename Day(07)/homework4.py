@@ -3,7 +3,7 @@
 
 #type/ტიპი: ეს ფუმქცია აჩვენებს კოდის ტიპს
 
-city = "Georgian"
+city = "Tbilisi"
 age = 25
 number = 25.9
 

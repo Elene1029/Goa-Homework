@@ -4,7 +4,7 @@
 hi = "hello world"
 print(type(hi))
 
-hi1 = hello wirld
+hi1 = hello world
 print(type(hi1))
 
 #string-ი ვერ გადავა integer-ში რანგან integer არის " "გარეშე და string არის " "-ით.
