@@ -6,7 +6,7 @@ from turtle import *
 #we wont to pain a castel
 
 
-speed(30)
+speed(10)
 
 
 penup()
@@ -714,7 +714,7 @@ right(90)
 forward(50)
 
 penup()
-goto(287,-105)
+goto(289,-105)
 pendown()
 
 begin_fill()
