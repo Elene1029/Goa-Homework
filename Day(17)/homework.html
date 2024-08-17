@@ -1,0 +1,58 @@
+<!-- Create a simple HTML form with two input fields: one for the user's name and one for their email address. Add a submit button.
+
+Add labels to the input fields created in Task 1 to ensure that each field is clearly identified.
+
+Modify the form from Task 1 to include placeholder text in each input field. For example, use "Enter your name" in the name field.
+
+Make the email field required so that the form cannot be submitted without an email address.
+
+Add a password field to the form. Ensure that the text entered in this field is hidden.
+
+Create a set of radio buttons that allow the user to select their gender (e.g., Male, Female, Other). Ensure only one option can be selected at a time.
+
+Add a checkbox that allows users to agree to terms and conditions before submitting the form. -->
+
+
+<html>
+    <head>
+        <title>instagram</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(224, 131, 168);
+        }
+       </style>   
+ <body>
+    <form>
+
+       <h1 style="text-align: center;">Instagram</h1>
+       <img  src="https://media.discordapp.net/attachments/1265731183921074217/1274379694560772147/Screenshot_20240817_184138_Pinterest.jpg?ex=66c20a14&is=66c0b894&hm=a17546abd225236b977c4dfa25e57c4632b85d3d0b8588939ee0762863afdaa3&=&format=webp&width=417&height=416" alt="instagram logo" width="50" height="50" ><br><br><br>
+       <lable for="Enter your name" >Name</lable>
+       <input  type="text"  required placeholder="name"
+       id="name" style="text-align: center;">   
+       <lable for="Enter your surname" > Surname</lable>
+       <input  type="text"  required placeholder="Surname"
+       id="Surname" style="text-align: center;"> <br><br>
+       <lable for="Enter your email" > Email</lable>
+       <input  type="email"  required placeholder="Email"
+       id="email" style="text-align: center;"> <br><br>
+       <label for="Enter your number">Numb</label>
+       <input type="text"required placeholder="number" 
+       id="number" style="text-align: center;"><br><br>
+       <label for="Enter your password">Password</label>
+       <input type="password" maxlength="8" placeholder="password"
+       id="password" style="text-align: center;"><br><br> 
+       <label for="Enter your password"> Again Password</label>
+       <input type="password" maxlength="8" placeholder="password"
+       id="passwork"style="text-align: center;"><br><br>
+       <label for="Enter your date">Date</label>
+       <input type="date"required placeholder="Date"
+       id="Date"style="text-align: center;"> <br><br>
+       <h3>CHOOSE YOUR GENDER</h3>
+       <input type="radio"required >female
+       <input type="radio"required >male<br><br>
+       <input type="submit"required>
+       
+             
+       </form>
+</html>

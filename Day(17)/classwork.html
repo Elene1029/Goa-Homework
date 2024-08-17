@@ -1,0 +1,28 @@
+<!--შექმენით  სარეგისტრააციო ფორმა სადაც მომხმარებელმა უნდა შეყუვანოს სახელი გვარი ემაილი ტელეფონის ნომერი პაროლი შემდეგ გაიმეოროს პაროლი დრო და checkbox ასევე დამატებით submit ღილაკი რომელზე დაჭერისას გაიგზავნება ინფორმაცია აუცილებელი იყოს ყველა input-ის შევსება და ყველას უნდა ჰქონდეს მიმანიშნებელი ტექსტი თუ რა უნდა ჩაწეროს მომხმარებელმა-->
+<html>
+    <head>
+        <title>facebook</title>
+    </head>
+       <style>
+        body{
+            background-color: darkkhaki;
+        }
+       </style>
+    <body>
+        <form>
+            <lable for="name">First name</lable>
+           <input type="text"  required placeholder="name"
+           id="name"><br><br>
+           <input type="text"  required placeholder="surname"><br><br>
+           <input type="email" required placeholder="email"><br><br>
+           <input type="text"required placeholder="number"><br><br>
+           <input type="password" maxlength="8" placeholder="password"><br><br>
+           <input type="password" maxlength="8" placeholder="password"><br><br>
+           <input type="date"required><br><br>
+           <input type="radio"required >female
+           <input type="radio"required >male<br><br>
+           <input type="submit"required>
+           <input type="checkbox"required ><br><br>
+        </form>
+    </body>
+</html>
