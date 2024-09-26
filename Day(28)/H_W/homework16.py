@@ -5,3 +5,5 @@ num = [31,33,35,37,39,41,43,45,47,49]
 print(num[0])
 print(num[1])
 print(num[2])
+
+print(num[0]+num[1]+num[2])
