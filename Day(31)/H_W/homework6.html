@@ -1,0 +1,33 @@
+<!-- 6) შექმენით დივი ამ დივის ზომა იყოს სიგანეში 1000px და სიმაღლე 1000px მასში მოათვსეთ ერთი ფოტო რომლის ზომები სიგანეში და სიმაღლეში იქნება მისი მშობელი დივის ნახევრის ნახევრი ნახევარი -->
+ 
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image in Div Example</title>
+    <style>
+       
+        .parent {
+            width: 1000px; 
+            height: 1000px; 
+            background-color: rgb(247, 0, 0); 
+            
+        }
+
+        
+        .child img {
+            width: 70%; 
+            height:50%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <img src="https://art.pixilart.com/8555a554ce30df4.png">
+        </div>
+    </div>
+</body>
+</html>
