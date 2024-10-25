@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+}
+h1{
+    animation: h1 infinite alternate 15s
+   }
+   @keyframes h1{
+
+20%{
+    color: blueviolet;
+}    
+40%{
+    color:rgb(252, 0, 0) ; 
+}
+60%{
+    color: orangered;   
+}
+80%{
+    color:rgb(80, 0, 252) ;   
+}
+100%{
+    olor:rgb(0, 252, 0) ;   
+}
+120%{
+    color:rgb(255, 0, 255) ;   
+}
+10%{
+    color:rgb(174, 255, 0) ;   
+}
+200%{
+    color:rgb(185, 156, 60) ;   
+}
+240%{
+    color:rgb(255, 0, 106) ;   
+} 
+}
+p.one{
+    font-family:  monospace;
+}
+p.two{
+    font-family: sans-serif;
+}
+p.three{
+    font-family: Arial;
+}
+p.four{
+    font-family: Courier ;
+}
+p.five{
+    font-family: Lucida ;
+}
+p.six{
+    font-family: monospace;
+}
+p.seven{
+    font-family: cursive;
+}
+p.eight{
+    font-family: Fantasy;
+}
+p.nine{
+    font-family: Copperplate;
+}
+p.ten{
+    font-family: fantasy ;
+}
+p.eleven{
+    font-family: Lucida;
+}
+p.twelve{
+    font-family: Tahoma;
+}
+
+p.one,p.two,p.three,p.four,p.five,p.nine,p.ten,p.eleven,p.twelve{
+    text-align: right;
+}
+body{
+    background-color:bisque
+}
