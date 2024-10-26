@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 249, 226);
+}
+table,th,td{
+    border-collapse: collapse;
+    margin: 30px auto;
+    border-style: solid;
+}
+.one{
+    background-color: rgb(255, 163, 178);
+
+}
+.two{
+    background-color: rgb(57, 133, 248);
+    
+}
+.three{
+    background-color: rgb(133, 245, 208);
+   
+}

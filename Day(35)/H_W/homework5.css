@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    border-radius: 0px;
+    Border-spacing: 0px;
+    overflow: hidden 
+}
+th,td{
+    border-style:solid;
+}
+.one{
+    background-color: rgb(83, 69, 239);
+    color: black;
+    text-decoration: double;
+    font-size: 30px;
+}
+.two{
+    background-color: rgb(57, 201, 244);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.three{
+    background-color: rgb(117, 246, 120);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.four{
+    background-color: rgb(251, 202, 80);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.five{
+    background-color: rgb(255, 253, 117);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.six{
+    background-color: rgb(248, 113, 125);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.seven{
+    background-color: rgb(255, 117, 184);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}
+.eight{
+    background-color: rgb(250, 160, 254);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+}

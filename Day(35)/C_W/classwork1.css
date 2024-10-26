@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(250, 237, 217);
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 20px;
+    Border-spacing: 0px;
+    overflow: hidden 
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #1abc9c;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.two {
+    background-color: #e3e3e3;
+}
+.three{
+    background-color: rgb(251, 246, 246);
+}
+td {
+    font-size: 15px;
+}
+.one {
+    color: #1abc9c;
+    font-weight: bold;
+}

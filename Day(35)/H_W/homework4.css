@@ -1,0 +1,21 @@
+table {
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    width: 50%;
+    border: 2px solid black;
+}
+th, td {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse; 
+    width: 50%;
+    border: 2px solid black;
+}
+th, td {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+}

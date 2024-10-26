@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    border-radius: 0px;
+    Border-spacing: 0px;
+    overflow: hidden 
+}
+th,td{
+    border-style:groove;
+    text-align: center;
+    vertical-align: middle;
+}
+th{
+    background-color: crimson;
+}
+td{
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 237, 211);
+}
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    border-radius: 0px;
+    Border-spacing: 0px;
+    overflow: hidden 
+}
+th{
+    background-color: aqua;
+    font-size: 20px;
+    border-style: dashed;
+}
+.one{
+    text-align: center;
+    background-color: pink;
+    border-style: groove;
+}
+.two{
+    text-align: center;
+    background-color:  plum;
+    border-style:double;
+}
+.three{
+    text-align: center;
+    background-color: aqua;
+    border-style: dotted;
+}
