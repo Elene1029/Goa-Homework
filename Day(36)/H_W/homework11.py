@@ -2,8 +2,8 @@
 
 
 def number ():
-    num = input("enter number : ")
-    num1 = input("enter number :")
+    num = int(input("enter number : "))
+    num1 = int(input("enter number :"))
     if num == num1:
         print("These numbers are equal to each other.")
     else:
