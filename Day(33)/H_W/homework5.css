@@ -1,0 +1,9 @@
+p.one{
+    font-style: italic
+}
+p.two{
+    font-weight: bold;
+}
+body{
+    background-color: bisque;
+}
