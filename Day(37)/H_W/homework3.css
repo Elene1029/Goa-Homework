@@ -1,0 +1,17 @@
+.one{
+    color: rgb(35, 35, 220);
+}
+.two{
+    color: rgb(144, 25, 255);
+}
+.three{
+    color: rgb(255, 5, 5);
+}
+.one,.two,.three{
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+body{
+    background-color: antiquewhite;
+}

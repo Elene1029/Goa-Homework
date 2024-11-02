@@ -1,0 +1,15 @@
+img{
+    width: 700px;
+    margin-left: 15%;
+}
+.one{
+    width: 700px;
+    margin-top: 10%;
+    margin-left: 40px;
+}
+.one,img{
+    border-radius: 15%;
+}
+body{
+    background-color: antiquewhite;
+}

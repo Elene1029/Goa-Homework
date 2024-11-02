@@ -1,0 +1,24 @@
+.one{
+    color: blueviolet;
+    margin-top: 10%;
+}
+.two{
+    color: crimson;
+    
+}
+.one:hover{
+    color: green;
+    font-size: 30px;
+}
+.two:hover{
+    color: blue;
+    font-size: 30px;
+}
+.one,.two{
+    font-family: fantasy;
+    text-align: center;
+    
+}
+body{
+    background-color: blanchedalmond;
+}

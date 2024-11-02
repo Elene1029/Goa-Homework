@@ -1,0 +1,27 @@
+.p1{
+    text-decoration: underline red;
+    color: blue;
+}
+.p2{
+    text-decoration: overline blue;
+    color:blueviolet
+}
+.p3{
+    text-decoration: line-through purple;
+    color: cadetblue;
+}
+.p4{
+    text-decoration:dashed wavy green;
+} 
+
+
+.p5{
+    text-decoration: none;
+    color: blue;
+    transition: 1s;
+}
+
+.p5:hover{
+    color:red;
+    font-size: 30px;
+}

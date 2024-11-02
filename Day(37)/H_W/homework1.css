@@ -1,0 +1,24 @@
+.one{
+    text-decoration: underline red;
+    color: blue;
+}
+.two{
+    text-decoration: line-through purple;
+    color: rgb(95, 210, 214);
+}
+.three{
+    text-decoration:overline palevioletred;
+    color: rgb(255, 123, 0);
+}
+
+.four{
+    text-decoration:dotted purple;
+    color: cadetblue;
+}
+.one,.two,.three,.four{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}

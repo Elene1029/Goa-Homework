@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3d1a6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.mtavar{
+    max-width: 800px;
+    background-color: #c9ebf3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h1 {
+    color: #ff0000;
+}
+img {
+    border-radius: 50%;
+    width: 160px;
+    height: 130px;
+    margin-top: 20px;
+}
+.one {
+    margin: 20px 0;
+    color: rgb(255, 96, 123);
+}
+p{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+.four{
+    border-radius: 50%;
+    width: 160px;
+    height: 130px;
+    margin-top: 20px;
+}
+.five{
+    border-radius: 50%;
+    width: 160px;
+    height: 130px;
+    margin-top: 20px;
+}

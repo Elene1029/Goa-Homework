@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+.one,.two,.three,.four,.five{
+    text-align: center;
+}
+.one{
+    font-size: 7px;
+    color: blue;
+}
+.two{
+    font-size: 10x;
+    color: palevioletred;
+}
+.three{
+    font-size: 15px;
+    color: royalblue;
+}
+.four{
+    font-size: 20px;
+    color: burlywood;
+}
+.five{
+    font-size: 25px;
+    color: goldenrod;
+}

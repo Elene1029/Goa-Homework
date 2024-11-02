@@ -1,0 +1,79 @@
+<!-- 16 ) შეეცადეთ div იდ დახმარებით შემქნად 3 ფიგურა და hover ზე შეევალოს ფორმა  დახმარე : border radius მაგ : წრე სამკუთხ ედები
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #fce9b6;
+        }
+ 
+        .shapes {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+ 
+        .shape {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: rgb(230, 229, 173);
+            
+        }
+ 
+        
+        .circle {
+            border-radius: 50%; 
+            color: blue;
+        }
+ 
+        
+        .rectangle {
+            height: 50px;
+            width: 100px;
+        }
+ 
+       .oval{
+            height: 50px;
+            width: 100px;
+            border-radius: 50%;
+
+       }
+        
+      .circle:hover{
+            height: 50px;
+            width: 100px;
+            border-radius: 50%;
+      }
+    
+      .rectangle:hover{
+            border-radius: 50%; 
+      }
+      .oval:hover{
+            height: 50px;
+            width: 100px;
+
+      }
+ 
+        
+     </style>
+ </head>
+ <body>
+     <h1>ფიგურები</h1>
+     <div class="shapes">
+        <div class="shape circle"></div>
+        <div class="shape rectangle"></div>
+        <div class="shape oval"></div>
+     </div>
+ </body>
+ </html> 
