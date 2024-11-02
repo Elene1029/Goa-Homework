@@ -4,7 +4,7 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 def name(bot): 
-    next = bot[0]
+    next = bot[0].lower()
     if next in alphabet:
         finish = alphabet.index(next) + 1
         return f"First letter of the name'{next}' is {finish}-ე In alphabetical order."
@@ -13,4 +13,5 @@ def name(bot):
 
 bot = input("enter your name: ")        
 print(name(bot))
+
 
