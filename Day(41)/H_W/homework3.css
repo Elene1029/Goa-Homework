@@ -1,0 +1,21 @@
+body{
+    background-color: burlywood;
+}
+ol,ul{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    font-family: cursive;
+}
+ol:hover{
+    transform: scale(1.45);
+    color: pink;
+    font-size: 40px;
+    font-family: fantasy;
+}
+ul:hover{
+    transform: scale(1.45);
+    color: pink;
+    font-size: 50px;
+    font-family: fantasy;
+}

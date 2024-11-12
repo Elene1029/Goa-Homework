@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(250, 220, 183);
+}
+ul.boy {
+    list-style-type: circle;
+    text-align: center;
+}
+
+ul.girl {
+    list-style-type: square;
+    text-align: center;
+}
+
+ol.food {
+    list-style-type: decimal;
+    text-align: center;
+}
+
+ol.Animals {
+    list-style-type: lower-alpha;
+    text-align: center;
+}

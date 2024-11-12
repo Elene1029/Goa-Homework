@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(223, 255, 61);
+}
+
+ul.G {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ol.B{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+ul.G,B {
+    list-style-type:square;
+    padding-left: 20px;
+}
+
+
+li {
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #00f084;
+    color: rgb(67, 28, 28);
+}

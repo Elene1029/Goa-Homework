@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(215, 249, 249);
+}
+
+ul.colors{
+    list-style-type: circle;
+    }
+
+
+ul.fruits{
+    list-style-type: square;
+}
+ol.vegetables{
+    list-style-type: decimal;
+    }
+ol.foods {
+    list-style-type: lower-alpha;
+    }
+
+li {
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+    }
+ol {
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+    }
+
+
+li:hover {
+    background-color: #0054f0; 
+    color:purple; 
+    }
+ol:hover {
+    
+    color:rgb(174, 0, 159); 
+    }
