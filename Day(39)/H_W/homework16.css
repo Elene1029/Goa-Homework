@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(rgb(0, 200, 255),rgb(185, 7, 152));
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+header {
+    background: linear-gradient(rgb(159, 32, 125),rgb(56, 48, 174));
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.7em;
+    margin: 0;
+    color: rgb(11, 11, 81);
+}
+header p{
+    color: rgb(34, 2, 30);
+    font-size: 21px;
+}
+
+.c {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(rgb(187, 93, 219),rgb(105, 242, 238));
+    box-shadow: 0 24px 26px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
+
+.r{
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: block;
+}
+
+input {
+    width: 80%;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 0 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background: linear-gradient(rgb(128, 10, 225),rgb(205, 93, 194));
+}
+
+button {
+    background: linear-gradient(rgb(93, 20, 94),rgb(242, 105, 212));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #000000;
+}
+
+button:hover {
+    background: linear-gradient(rgb(17, 12, 80),rgb(24, 140, 223));
+}
+
+footer {
+    background: linear-gradient(rgb(57, 49, 170),rgb(159, 42, 128));
+    color: #0f081f;
+    padding: 15px 0;
+    margin-top: 380px;
+}

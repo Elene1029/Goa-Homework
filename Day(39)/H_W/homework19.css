@@ -1,0 +1,92 @@
+body {
+
+    background: linear-gradient(rgb(6, 74, 6),rgb(233, 242, 105));
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(rgb(42, 122, 42),rgb(193, 202, 68));
+    color: #0f4310;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.c{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(rgb(47, 111, 40),rgb(59, 130, 41));
+    box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: black;
+}
+
+.s{
+    font-size: 2em;
+    width: 1500px;
+    margin-bottom: 30px;
+    background: linear-gradient(rgb(60, 172, 60),rgb(234, 250, 11));
+    border-radius: 1rem;
+    color: black;
+}
+
+.p{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.p-t{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(rgb(9, 39, 9),rgb(22, 172, 102));
+}
+
+.p-t img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.p-t h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.p-t p {
+    font-size: 1em;
+    color: #555;
+}
+
+.buy-button {
+    background: linear-gradient(rgb(42, 122, 42),rgb(193, 202, 68));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.buy-button:hover {
+    background: linear-gradient(rgb(21, 67, 27),rgb(130, 137, 33));
+}
+
+footer {
+    background: linear-gradient(rgb(42, 122, 42),rgb(193, 202, 68));
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 50px;
+    }

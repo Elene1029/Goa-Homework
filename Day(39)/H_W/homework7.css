@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+        }
+header {
+    background: #7df296;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+    font-family: fantasy;
+    font-size: 18px;
+        }
+section {
+    padding: 2em;
+    margin: 1em;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a8f5cc;
+    border-radius: 8px;
+        }
+h2 {
+    color: #000000;
+        }
+footer {
+    background-color: #0bc9ee;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    }

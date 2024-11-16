@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(lightgreen,rgb(255, 145, 0));
+    padding: 20px;
+    height:1100px;
+    font-family: cursive;
+}
+
+h1 {
+    color: #000000;
+}
+
+.o{
+    width: 100%;
+    max-width: 400px;
+    background: linear-gradient(rgb(0, 255, 0),rgb(255, 119, 0));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.o label {
+    display: block;
+    margin: 10px 0 5px;
+    
+}
+
+.o input[type="text"],
+.o select,
+.o button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(rgb(90, 238, 90),rgb(241, 137, 0));
+    
+    
+}
+
+.o input {
+    margin-right: 10px;
+}
+
+.o button {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+}

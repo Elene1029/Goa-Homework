@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    border-radius: 0px;
+    Border-spacing: 0px;
+    overflow: hidden 
+}
+th,td{
+    border-style:solid;
+}
+.one{
+    background-color: rgb(57, 201, 244);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+    text-align: center;
+}
+.two{
+    background-color: rgb(40, 255, 58);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+    text-align: center;
+}
+.three{
+    background-color: rgb(238, 224, 33);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+    text-align: center;
+}
+.four{
+    background-color: rgb(244, 194, 57);
+    font-size: 15px;
+    text-decoration: double;
+    color: black;
+    text-align: center;
+}
