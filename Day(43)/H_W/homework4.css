@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.c {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    right: 380px;
+}
+.cd{
+    width: 90px;
+    position: relative;
+    left: 90px;
+}
+.hd{
+    width: 150px;
+}
+.h{
+    color: #ff4d00;
+    font-family: serif;
+    font-size: 25px;
+    margin-left: 21%;
+}
+
+.nav-links p {
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+.b button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border-color: 2px black;
+    position: relative;
+    left: 80px;
+    
+}
+
+.a-a-p {
+    background: #fc9c03;
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+
+.a-a-p:hover {
+    background: #fc6000;
+    font-size: 22px;
+}
+
+.d-n {
+    background: #ff5500;
+    color: white;
+    font-weight: bold;
+}
+
+.d-n:hover {
+    background: #ff8c00;
+    font-size: 22px;
+}
+.bu button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all 0.3s ease;
+    
+}
+
+.a-A-p {
+    background: #fc9c03;
+    color: white;
+    margin-right: 10px;
+    border-color: black;
+    font-weight: bold;
+}
+
+.a-A-p:hover {
+    background: #fc6000;
+    font-size: 25px;
+}
+
+.e{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background: url('dog.jpg') no-repeat center/cover;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    height: 900px;
+}
+
+.e-c{
+    max-width: 500px;
+    margin-left: 14%;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: serif;
+}
+.p{
+    color: #f5f5f5;
+    font-size: 20px;
+    position: relative;
+    left: 1px;
+}
+
+.ser{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.le button{
+    padding: 8px 15px;
+    border-color: rgb(255, 64, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    
+}
+.l{
+    background: #ffffff;
+    color: rgb(255, 85, 0);
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 18%;
+    
+}
+.h3{
+    color: rgb(194, 55, 0);
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 8%;
+}
+
+.l:hover{
+    box-shadow: 0 6px 16px black;
+    font-size: 24px ;
+    color: #871f00;
+}

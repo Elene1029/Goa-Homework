@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe1bf;
+    font-family: Arial, sans-serif;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: #09ff00;
+    color: rgb(0, 31, 115);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.6s ease;
+    box-shadow: 0 3px 26px blue;
+}
+
+div:hover {
+    background-color: #ffe100;
+    box-shadow: 0 12px 23px red;
+    transform: translate(0,300px);
+
+}

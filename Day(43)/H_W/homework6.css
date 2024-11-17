@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7d9bb;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    background-color: #ff00a2;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0 12px 23px rgb(50, 140, 178);
+}
+
+div:active {
+    width: 250px;
+    height: 250px;
+    color: #000000;
+    background-color: #ff0000;
+    box-shadow: 0 12px 26px black;
+}

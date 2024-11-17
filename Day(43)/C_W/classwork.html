@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        input{
+            border: 2px solid blueviolet;
+            background-color: darkmagenta;
+            outline:none;
+        }
+        input[type="text"],input[type="email"]{
+            border: 2px solid red;
+            background-color: rgb(0, 183, 255);
+            border-radius: 1rem;
+        }
+
+        div{
+            border: blue;
+            border-radius: 50%;
+            background-color: blueviolet;
+            height: 200px;
+            width: 200px;
+            margin-top: 5%;
+        }
+        .one{
+            border: blue;
+            border-radius: 10px 60px 30px 80px;
+            background-color: rgb(60, 255, 0);
+            height: 200px;
+            width: 200px;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <input type="text" placeholder="name"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <input type="email" placeholder="email">
+    </form>
+    <div></div>
+    <div class="one"></div>
+</body>
+</html>
