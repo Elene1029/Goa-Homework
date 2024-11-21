@@ -1,13 +1,13 @@
 body {
-    display: flex;
-    justify-content: center;
+    display: flex;/*განსაზღვრავს ელემენტებს განლაგებას flex ავტომატურად ხდება ერთ ერთი აპეციალურ ალგორითმად  */
+    justify-content: center;/*ელემენტების ანტივერტიკალური აბ ჰორიზონტალური განლაგებისთვის გამოიყეება*/
     background-color: #f6e3b9;
-    align-items: center;
+    align-items: center;/*ეს გამოიყენება ელემენტის განლაგებაში როდესაც ექნება flexbox ან grid */
     height: 100vh;
 }
 
 .m {
-    position: relative;
+    position: relative; /*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     width: 400px;
     height: 300px;
     background-color: white;
@@ -16,7 +16,7 @@ body {
 
 
 .v {
-    position: absolute;
+    position: absolute;/*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 50px;
     height: 300px;
     background-color: red;
@@ -24,7 +24,7 @@ body {
 }
 
 .h{
-    position: absolute;
+    position: absolute;/*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 400px;
     height: 50px;
     background-color: red;
@@ -33,13 +33,13 @@ body {
 
 
 .s {
-    position: absolute;
+    position: absolute;/*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 22px;
     height: 22px;
 }
 
 .s .v {
-    position: absolute;
+    position: absolute;/*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 9px;
     height: 24px;
     background-color: red;
@@ -47,7 +47,7 @@ body {
 }
 
 .s .h {
-    position: absolute;
+    position: absolute;/*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 26px;
     height: 10px;
     background-color: red;

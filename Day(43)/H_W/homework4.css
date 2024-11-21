@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
     color: #333;
 }
 
@@ -20,21 +19,21 @@ body {
 }
 
 .a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;/*განსაზღვრავს ელემენტებს განლაგებას flex ავტომატურად ხდება ერთ ერთი აპეციალურ ალგორითმად  */
+    justify-content: space-between;/*იმისთვის გამოიყენება რომ ქონდეს დისტანცია მაგრამ გამოიყენება როდესაც გვაქვს flexbow ან grid*/
+    align-items: center;/*ეს გამოიყენება ელემენტის განლაგებაში როდესაც ექნება flexbox ან grid */
 }
 
 p{
     color: black;
     font-size: 15px;
     font-weight: bold;
-    position: relative;
+    position: relative;/*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     right: 500px;
 }
 .cd{
     width: 90px;
-    position: relative;
+    position: relative;/*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     left: 90px;
 }
 .hd{
@@ -48,7 +47,7 @@ p{
 }
 
 .nav-links p {
-    cursor: pointer;
+    cursor: pointer; /*მექანიკურად მაუსის ხელს გვანახებს */
     font-weight: bold;
     color: #333;
 }
@@ -56,11 +55,11 @@ p{
 .b button{
     padding: 8px 15px;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer;/*მექანიკურად მაუსის ხელს გვანახებს */
     font-size: 18px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;/*ეს გამოიყენება როდესაც ერთ-ერთი თვისება შეიცვლება და ყველა თვისება იქნება მოცემული დროით ანუ 0.3s ease არის გადასვლის ერთ-ერთი ეფექტი რომელიც რბილად მაგრამ ჩქარა გადავა  */
     border-color: 2px black;
-    position: relative;
+    position: relative;/*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     left: 80px;
     
 }
@@ -92,7 +91,7 @@ p{
     padding: 8px 15px;
     border: none;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer;/*მექანიკურად მაუსის ხელს გვანახებს */
     font-size: 22px;
     transition: all 0.3s ease;
     
@@ -112,14 +111,14 @@ p{
 }
 
 .e{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;/*განსაზღვრავს ელემენტებს განლაგებას flex ავტომატურად ხდება ერთ ერთი აპეციალურ ალგორითმად  */
+    justify-content: space-between;/*იმისთვის გამოიყენება რომ ქონდეს დისტანცია მაგრამ გამოიყენება როდესაც გვაქვს flexbow ან grid*/
+    align-items: center;/*ეს გამოიყენება ელემენტის განლაგებაში როდესაც ექნება flexbox ან grid */
     padding: 40px 0;
-    background: url('dog.jpg') no-repeat center/cover;
+    background: url('dog.jpg') no-repeat center/cover;/*no-repeat : იმისთვის რომ არ გაიმეოროს ჩასმული სურათი , center : ეს იმისთვის რომ სურათი იყოს ცენტრში, cover : ეს იმისთვის რომ სურათი გაფართოვდეს ისე რომ დაფაროს მთლიანი ელემეტი*/
     color: rgb(0, 0, 0);
     text-align: left;
-    height: 900px;
+    height: 900px;/*ეს კიდე სურათის სიმაღლეს აკონტროლებს ამ მომენტში სიმაღლე გავზარდეთ )))*/
 }
 
 .e-c{
@@ -132,22 +131,22 @@ p{
 .p{
     color: #f5f5f5;
     font-size: 20px;
-    position: relative;
+    position: relative;/*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     left: 1px;
 }
 
 .ser{
-    display: flex;
-    justify-content: space-around;
+    display: flex;/*განსაზღვრავს ელემენტებს განლაგებას flex ავტომატურად ხდება ერთ ერთი აპეციალურ ალგორითმად  */
+    justify-content: space-around;/*ეს გამოიყენება იმისთვის რომ რა სივრცესაც მივუთითებთ იქნება პირველ ელემენტთან და ბოლო ელემენტთან */
     margin: 40px 0;
 }
 .le button{
     padding: 8px 15px;
     border-color: rgb(255, 64, 0);
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer;/*მექანიკურად მაუსის ხელს გვანახებს */
     font-size: 20px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;/*ეს გამოიყენება როდესაც ერთ-ერთი თვისება შეიცვლება და ყველა თვისება იქნება მოცემული დროით ანუ 0.3s ease არის გადასვლის ერთ-ერთი ეფექტი რომელიც რბილად მაგრამ ჩქარა გადავა  */
     
 }
 .l{

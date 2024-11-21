@@ -1,0 +1,21 @@
+
+button {
+    background-color: #f61900;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 7px 14px black;
+    border: none;
+    padding: 12px 22px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 25px;
+    transition: all 0.7s ease;
+    margin-top: 15%;
+    margin-left: 40%;
+  }
+  
+  button:hover {
+    color: #0c00fa; 
+    border-bottom: 3px solid #000000; 
+    box-shadow: 0 4px 8px lightblue; 
+    
+  }

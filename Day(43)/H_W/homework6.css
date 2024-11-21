@@ -28,5 +28,5 @@ div:active {
     height: 250px;
     color: #000000;
     background-color: #ff0000;
-    box-shadow: 0 12px 26px black;
+    box-shadow: 0 12px 2px black;
 }

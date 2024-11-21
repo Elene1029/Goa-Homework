@@ -1,11 +1,10 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;  /*განსაზღვრავს ელემენტებს განლაგებას flex ავტომატურად ხდება ერთ ერთი აპეციალურ ალგორითმად  */
+    justify-content: center;/*ელემენტების ანტივერტიკალური აბ ჰორიზონტალური განლაგებისთვის გამოიყეება*/
     margin-top: 12%;
   }
   .bmw{
-    position: relative;
+    position: relative;/*რამდენიმე დონეზე მდებარე ელემენტი ობიექტი*/
     width: 300px;
     height: 300px;
     
@@ -15,7 +14,7 @@ body{
     height: 110%;
     border-radius: 50%;
     background-color: #1f1f1f;
-    position: absolute;
+    position: absolute; /*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     box-shadow: 0 8px 22px blue;
   }
   .i-c{
@@ -23,13 +22,14 @@ body{
     height: 250px;
     background: white;
     border-radius: 50%;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    overflow: hidden;
+    position: absolute;  /*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
+    top: 40px;/*გადაადგილდება ზევით*/
+    left: 40px;/*გადაადგილდება მარცხნივ*/
+    overflow: hidden;/*შიგთავს ჭრის*/
   }
+ 
   .w{
-    position: absolute;
+    position: absolute; /*აძლევს საშუალებას რომ ელემენტი იყოს ყველაზე ახლო მშობელთან  */
     width: 50%;
     height: 50%;
     
@@ -37,7 +37,7 @@ body{
   .b-l {
     background: #2791fa;
     border: 3px solid black;
-    transform: translate(0,-4px);
+    transform: translate(0,-4px);   /* transform: translate(6px) ამას იმისთვის ვიყენებთ რომ კონკრეტული ელემენტი გადავაადგილოთ მას შეუძლია ზევითაც გადაადგილდეს ქვევით მარჯვნივ მარცხნივ თავისთავად თუ კონკეტულ რაოდენობას მივუწერთ)); */
     margin: 2px;
     margin-left: -2px;
   }
@@ -46,7 +46,6 @@ body{
     bottom: 0;
     right: 0;
     border: 3px solid black;
-    /* transform: translate(6px); */
     margin-right: -8px;
     margin: -7px;
   }
