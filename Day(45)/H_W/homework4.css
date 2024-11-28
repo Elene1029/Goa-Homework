@@ -1,0 +1,54 @@
+body {
+    background-color: #d8f5fa;
+    padding: 20px;
+  }
+
+  header{
+    background-color: rgb(129, 0, 134);
+    color: rgb(170, 170, 170);
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-right: -30px;
+    
+}
+
+h1 {
+    color: #ff4cc9fd;
+  }
+
+section{
+    background-color: #fdbdec;
+    margin-top: 2%;
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px black;
+  }
+
+h2 {
+    color: #000000;
+    padding-bottom: 10px;
+    font-size: 28px;
+  }
+  
+p {
+    color: #000000;
+    line-height: 1.6;/*ხაზების შორის აკეთებს მანძილს*/
+    font-weight: bold;
+  }
+footer{
+    display: flex;
+    background-color:#750095fd;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
