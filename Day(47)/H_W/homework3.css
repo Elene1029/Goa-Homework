@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(rgb(72, 72, 254), rgb(218, 218, 255));
+    height: 1000px;
+}
+
+
+.div{
+    background:linear-gradient(rgb(247, 92, 118),#fca0b0);
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 6px 10px;
+    position: absolute;
+    justify-content:center;align-items:center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 15%;
+    transition: transform 0.3s;
+}
+
+p{
+    margin-top: -15px;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-shadow: 2px 0px 9px ;
+}
+h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    text-shadow: 2px 0px 10px ;
+    
+}
+.div:hover {
+    transform: rotate(360deg);
+    background: linear-gradient(rgb(137, 32, 236), rgb(165, 78, 153));
+  }
+.div:active {
+    transform: rotate(0deg);
+  }

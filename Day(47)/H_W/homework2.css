@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(207, 241, 241);
+}
+
+.big{
+    background-color: pink;
+    padding: 2% 4%;
+    display: flex;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -8px;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.4s;
+    border: 5px solid black;
+    box-shadow: 0px 2px 4px;
+    
+}
+a:hover{
+    color:red;
+    transform: scale(1.2);
+}
