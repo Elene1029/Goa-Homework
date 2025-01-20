@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(154, 186, 246);
+}
+
+.big{
+    display: flex;
+    justify-content: space-between;
+
+}
+.block{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-size:20px ;
+    color: white;
+}
+.block1{
+    background-color: blueviolet;
+}
+.block2{
+    background-color: rgb(226, 43, 202);
+}
+.block3{
+    background-color: rgb(226, 43, 113);
+}
