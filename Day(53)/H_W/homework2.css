@@ -1,0 +1,121 @@
+body {
+    background-color: #f1ded3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+}
+
+.big{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 750px;
+    box-shadow: 0 8px 6px rgba(172, 172, 172, 0.48);
+    height: 1600px;
+    position: relative;
+    top: 30px;
+}
+
+.big img {
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Georgia';
+    position: relative;
+    left: 30px;
+}
+.p{
+    position: relative;
+    left: 30px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+.yuti{
+    background-color: rgba(251, 199, 199, 0.186);
+    width: 80%;
+    height: 180px;
+    position: relative;
+    left: 32px;
+    border-radius: 10px;
+}
+.h2{
+    color: rgb(159, 31, 31);
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: "Gill Sans Extrabold";
+    font-size: 22px;
+    
+}
+.i{
+    position: relative;
+    left: 15px;
+    top: 5px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.h3{
+    font-size: 30px;
+    color: rgb(152, 39, 39);
+    position: relative;
+    left: 32px;
+}
+.l{
+    position: relative;
+    left: 23px;
+    bottom: 5px;
+    line-height: 1.8;
+    color: black;
+    font-family:cursive;
+}
+.h4{
+    font-size: 30px;
+    color: rgb(152, 39, 39);
+    position: relative;
+    left: 32px;
+}
+.ol{
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+    line-height: 1.8;
+    color: black;
+    font-family:cursive;
+}
+.h5{
+    font-size: 30px;
+    color: rgb(152, 39, 39);
+    position: relative;
+    left: 32px;
+}
+.p1{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 35px;
+    font-family: cursive;
+}
+.li{
+    position: relative;
+    left: 25px;
+    top: 5px;
+    font-size: 19px;
+    line-height: 1.9;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.lo{
+    position: relative;
+    left: 360px;
+    bottom: 157px;
+    font-size: 19px;
+    line-height: 1.9;
+    list-style-type: none;
+    color: rgb(94, 23, 23);
+    font-weight: bold;
+    font-family: sans-serif;
+}
