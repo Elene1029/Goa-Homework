@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(215, 252, 252);
+}
+
+.div {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 330px;
+    animation: colorAndRotate 5s infinite;
+  }
+
+@keyframes colorAndRotate {
+    0% {
+      background-color: green;
+      transform: rotate(0deg);
+      font-size: 3em;
+      transform-origin: center;
+    }
+    25% {
+      background-color: yellow;
+      transform: rotate(90deg);
+      font-size: 5em;
+    }
+    50% {
+      background-color: orange;
+      transform: rotate(180deg);
+      font-size: 1em;
+    }
+    75% {
+      background-color: yellow;
+      transform: rotate(360deg);
+      font-size: 6em;
+    }
+    100% {
+      background-color: green;
+      transform: rotate(360deg) translateX(100px);
+      font-size: 2em;
+    }
+  }
+
+  
