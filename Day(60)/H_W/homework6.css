@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(250, 203, 146);
+}
+
+.heartbeat {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-radius: 50%;
+    animation: heartbeat 1s infinite;
+    position: relative;
+    left: 40%;
+    top: 280px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
