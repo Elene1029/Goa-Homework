@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url('backk.PNG') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 400px;
+    
+}
+
+.card-header {
+    background: url('back.PNG') no-repeat center;
+    background-size: cover;
+    padding: 80px;
+    width: 350px;
+    height: 30px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: -50px auto 10px;
+    position: relative;
+    top: 80px;
+}
+
+
+.body {
+    padding: 20px;
+}
+
+.body h1 {
+    font-size: 22px;
+    position: relative;
+    top: 45px;
+}
+
+.body h1 span {
+    font-weight: 400;
+    color: hsl(0, 0%, 55%);
+    font-size: 14px;
+    
+}
+
+.body p {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+}
+
+.footer {
+    display: flex;
+    border-top: 1px solid hsl(0, 0%, 94%);
+    position: relative;
+    top: 50px;
+}
+
+.fot {
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.fot h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fot p {
+    color: hsl(0, 1%, 51%);
+    font-size: 14px;
+    margin-top: 5px;
+}
