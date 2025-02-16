@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+    width: 400px;
+    background-color: rgb(162, 84, 182);
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow:  5px 2px black;
+}
