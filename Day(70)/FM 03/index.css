@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(236, 242, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgb(137, 144, 159);
+    width: 600px;
+    overflow: hidden;
+}
+
+
+.card {
+    background: linear-gradient(252deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.result-card h2 {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.circle {
+    background: hsla(256, 72%, 46%, 1);
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.circle span {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.card h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.card2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.card2 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 240px;
+    padding: 1px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.summary-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+.summary-item span{
+    color: black;
+}
+
+.summary-item p{
+    position: relative;
+    right: 30px;
+}
+
+
+.reaction {
+    background-color:rgb(255, 246, 247);
+    color: rgb(219, 108, 106);
+}
+
+.memory {
+    background-color:rgb(255, 250, 244);
+    color: rgb(240, 180, 50);
+}
+
+.verbal {
+    background-color:rgb(242, 253, 249);
+    color: rgb(84, 176, 98);
+}
+
+.visual {
+    background-color:rgb(244, 244, 254);
+    color: rgb(70, 130, 180);
+}
+
+.button {
+    width: 240px;
+    padding: 13px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(72, 54, 242);
+}

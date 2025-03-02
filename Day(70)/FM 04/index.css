@@ -1,0 +1,105 @@
+
+body {
+    background-color: rgb(243, 235, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    box-shadow: 0 10px 20px rgba(107, 107, 107, 0.239);
+}
+
+
+.img {
+    background: url('perf.PNG') center/cover no-repeat;
+    width: 50%;
+}
+
+
+.inf{
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.raaris {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: hsl(228, 12%, 48%);
+}
+
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(26, 33, 96);
+    font-weight: bold;
+}
+
+.isevinf{
+    font-size: 14px;
+    color: rgb(133, 167, 210);
+    line-height: 1.5;
+}
+
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.new{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    
+    color: rgb(59, 130, 104);
+}
+
+.old {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: rgb(117, 123, 144);
+}
+
+
+.button{
+    background-color:rgb(60, 130, 104);
+    color: white;
+    position: relative;
+    top: 5px;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cart-btn:hover {
+    background-color: hsl(158, 36%, 20%);
+}
+
+.button img{
+    width: 20px;
+}
