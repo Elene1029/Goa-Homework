@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('pin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 90px;
+    color: rgb(188, 188, 188);
+    filter: blur(2px);
+    text-shadow: 3px 12px 9px rgb(0, 0, 0);
+    font-family:monospace;
+    position: relative;
+    left: 20%;
+}
