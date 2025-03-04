@@ -2,6 +2,6 @@
 
 
 name =input("enter num")
-while name !="5":
+while name !="2":
     name = input ("enter num")
 print("ყოჩაღ")

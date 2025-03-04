@@ -2,8 +2,8 @@
 
 def find_smallest_int(arr):
 
-    mini_num = arr[0]
+    n_num = arr[0]
     for i in arr:
-        if i < mini_num :
-            mini_num = i
-    return mini_num   
+        if i < n_num :
+            n_num = i
+    return n_num   

@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.header-1{
+    background-color: rgb(253, 64, 2);
+    padding: 2px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #222;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+snap{
+    color: rgb(253, 71, 0);
+}
+.Portfolio{
+    color: rgb(253, 71, 0);
+    text-decoration: underline;
+}
+.contact-btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.hero-text span {
+    color: rgb(253, 64, 2);
+}
+
+.hero-text p {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hire {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.experience {
+    background-color: rgb(253, 64, 2);
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.hero-image img {
+    width: 490px;
+    border-radius: 50%;
+    height:620px;
+    position: relative;
+    right: 35%;
+}
+
+
+
+
