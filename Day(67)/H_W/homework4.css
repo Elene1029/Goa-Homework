@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(255, 255, 255),rgb(237, 57, 150),orange);
+}
+header {
+    position: relative;
+    width: 2140px;
+    height: 650px;
+    background: url('zootopia.jpg') no-repeat center center/cover;
+    color: rgb(243, 110, 9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    align-items: center;
+    color: rgb(243, 110, 9);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.subscribe {
+    background-color: #ff00aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categories {
+    padding: 50px 20px;
+    text-align: center;
+}
+.categories h2{
+    color: orange;
+    font-size: 30px;
+}
+.category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: linear-gradient(rgb(248, 151, 15),rgb(239, 65, 164));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h3{
+    color: rgb(242, 143, 186)
+    ;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}

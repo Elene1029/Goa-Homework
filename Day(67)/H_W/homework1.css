@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 70px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 380px;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.one { background: rgb(100, 176, 246);
+}
+.two { background: rgb(240, 180, 47);
+}
+.three { background: rgb(35, 76, 115); 
+}
+
+button {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+.by1{
+    position: relative;
+    top: 30px;
+}
+.by2{
+    position: relative;
+    top: 110px;
+}
+.by3{
+    position: relative;
+    top: 160px;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
