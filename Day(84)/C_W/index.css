@@ -33,9 +33,9 @@ body{
 }
 
 .div1 h1{
-    font-size: 70px;
-    font-weight: 500;
-    font-family: "Rokkitt", serif;
+    font-size: 65px;
+    font-weight: 600;
+    font-family: sans-serif    ;
   
   
 }
@@ -81,7 +81,7 @@ body{
     position: relative;
     top:40px;
     left: 30px;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
 }
 .div3{
     background-color: hsl(39, 100%, 71%);
@@ -94,7 +94,7 @@ body{
     font-size: 36px;
     font-weight: 700;
     position: relative;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
     top:20px;
     left: 30px;
 }
@@ -119,7 +119,7 @@ body{
     position: relative;
     left: 30px;
     top: 40px;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
 }
 .div4 img{
     width: 440px;
@@ -132,9 +132,9 @@ body{
     font-size: 21px;
     position: relative;
     color: black;
-    left: 35px;
+    left: 30px;
     top: 90px;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
 }
 .div5{
     background-color: hsl(256, 67%, 59%);
@@ -150,12 +150,12 @@ body{
 }
 
 .div5 p{
-    font-size: 43px;
+    font-size: 40px;
     position: relative;
-    left: 330px;
+    left: 310px;
     bottom: 170px;
     font-weight: 600;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
     color:white;
 
 }
@@ -167,20 +167,20 @@ body{
 }
 
 .div6 h1{
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
     position: relative;
     top: 20px;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
 }
 
 .div6 p{
     font-size: 23px;
     position: relative;
-    left: 40px;
+    left: 25px;
     top: 30px;
     font-weight: 600;
-    font-family: "Rokkitt", serif;
+    font-family: sans-serif    ;
 }
 
 .div6 img{
@@ -200,8 +200,7 @@ body{
     position: relative;
     left: 30px;
     top: 60px;
-    font-family: "Rokkitt", serif;
-}
+    font-family: sans-serif    ;}
 
 .div7 span{
     color: hsl(256, 67%, 59%);;
@@ -226,8 +225,7 @@ body{
     position: relative;
     left: 30px;
     top: 40px;
-    font-family: "Rokkitt", serif;
-}
+    font-family: sans-serif    ;}
 
 .div8 img{
     width: 230px;
