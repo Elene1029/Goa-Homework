@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    display: grid;
+    grid-template-columns: 280px 290px 290px 300px;
+    grid-template-rows: 290px 120px 165px 290px;
+    gap: 30px;
+    
+    
+}
+
+
+.div1{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 2/4;
+    grid-row: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div1 h1{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Rokkitt", serif;
+  
+  
+}
+.div1 i{
+    font-size: 50px;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+}
+.div1 img{
+    width: 200px;
+}
+
+.yellow{
+    color: rgb(253, 203, 111);
+}
+.div1 p{
+    opacity: 90%;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+.div2{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 2/3;
+    grid-row: 2/4;
+    overflow: hidden;
+}
+.div2 img{
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.div2 h1{
+    font-size: 34px;
+    font-weight: 700;
+    position: relative;
+    top:40px;
+    left: 30px;
+    font-family: "Rokkitt", serif;
+}
+.div3{
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    overflow: hidden;
+}
+
+.div3 p{
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Rokkitt", serif;
+    top:20px;
+    left: 30px;
+}
+
+.div3 img{
+    width: 240px;
+    object-fit: cover;
+    position: relative;
+    left: 25px;
+    top: 53px;
+}
+
+.div4{
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 4/5;
+    grid-row: 1/4;
+    overflow: hidden;
+}
+.div4 h1{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    font-family: "Rokkitt", serif;
+}
+.div4 img{
+    width: 440px;
+    height: 330px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+.div4 p{
+    font-size: 21px;
+    position: relative;
+    color: black;
+    left: 35px;
+    top: 90px;
+    font-family: "Rokkitt", serif;
+}
+.div5{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 3/5;
+    grid-row: 4;
+    overflow: hidden;
+}
+.div5 img{
+    width: 270px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.div5 p{
+    font-size: 43px;
+    position: relative;
+    left: 330px;
+    bottom: 170px;
+    font-weight: 600;
+    font-family: "Rokkitt", serif;
+    color:white;
+
+}
+
+.div6{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.div6 h1{
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family: "Rokkitt", serif;
+}
+
+.div6 p{
+    font-size: 23px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 600;
+    font-family: "Rokkitt", serif;
+}
+
+.div6 img{
+    width: 210px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.div7{
+    background-color: hsl(31, 66%, 93%);
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.div7 h1{
+    font-size: 45px;
+    position: relative;
+    left: 30px;
+    top: 60px;
+    font-family: "Rokkitt", serif;
+}
+
+.div7 span{
+    color: hsl(256, 67%, 59%);;
+}
+
+.div7 img{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top:80px;
+}
+
+.div8{
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 3/5;
+    overflow: hidden;
+}
+
+.div8 h1{
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    font-family: "Rokkitt", serif;
+}
+
+.div8 img{
+    width: 230px;
+    position: relative;
+    left: 30px;
+    top: 80px;
+}
+
+.hero div{
+    box-shadow: 0px 0px 5px rgb(201, 201, 201);
+    border-radius: 10px;
+}
