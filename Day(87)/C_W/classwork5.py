@@ -1,4 +1,4 @@
-# 4) Split Strings
+# 5) Split Strings
 
 def solution(s):
     if len(s) % 2 != 0:

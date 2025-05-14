@@ -1,4 +1,4 @@
-# 3) Find the divisors!
+# 4) Find the divisors!
 
 def divisors(integer):
 
