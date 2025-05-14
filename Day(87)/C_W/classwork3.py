@@ -1,14 +1,8 @@
-# 3) Find the divisors!
+# 3 ) String cleaning
 
-def divisors(integer):
-
-    divisors_list = []
-    
-    for i in range(2, integer):
-        if integer % i == 0:
-            divisors_list.append(i)
-    
-    if divisors_list:
-        return divisors_list
-    else:
-        return f"{integer} is prime"
+def string_clean(s):
+    string = ''
+    for i in s:
+        if not i.isdigit():
+            string += i
+    return string

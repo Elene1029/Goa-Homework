@@ -1,11 +1,14 @@
-# 4) Split Strings
+# 3) Find the divisors!
 
-def solution(s):
-    if len(s) % 2 != 0:
-        s += '_' 
+def divisors(integer):
+
+    divisors_list = []
     
-    result = []
-    for i in range(0, len(s), 2):
-        result.append(s[i:i+2]) 
+    for i in range(2, integer):
+        if integer % i == 0:
+            divisors_list.append(i)
     
-    return result
+    if divisors_list:
+        return divisors_list
+    else:
+        return f"{integer} is prime"
