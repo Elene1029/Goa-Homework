@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    margin: 0px 100px;
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 50px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid #A8A8A8;
+    flex-wrap: wrap;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+header button{
+    padding: 17px 50px;
+    border-radius: 100px;
+    background-color: #FFCE31;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.hero img{                                                                                               
+    width: 815px;
+
+}
+
+.h{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.h p{
+    font-size: 22px;
+}
+.h h2{
+    font-size: 100px;
+}
+
+.h form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+
+}
+
+form input{
+    padding: 20px 50px;
+    border-radius: 26px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+
+
+}
+form button{
+    background-color: #FFCE31;
+    border: none;
+    border-radius: 40px;
+    padding: 0px 40px;
+    font-weight: 700;
+}
+
+.h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sm{
+    display: flex;
+    gap: 50px;
+}
+
+.sekcia{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: #A8A8A8 1px solid;
+} 
+
+.sekcia h2{
+    font-size: 72px;
+    
+}
+.satauri{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px 0px;
+}
+.telefonebi div{
+    background-color: #FFF0BF;
+}
+.telefonebi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 100px;
+    /* gap: 30px; */
+}
+
+.telefon, .telefon2{
+    width: 700px;
+    height: 750px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 40px;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+    gap: 20px;
+}
+
+.telefon h3, .telefon2 h3{
+    font-size: 36px;
+}
+.surati{
+    position: relative;
+    bottom: 580px;
+    width: 470px;
+}
+.surati2{
+    width: 529px;
+}
+
+
+.qveyana{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.qveyana h2{
+    font-size: 72px;
+}
+.qveyana img{
+    margin-top: 30px;
+}
+.qveyana-desc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 300px;
+}
+
+.qveyana-desc h2 {
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.desc h2 {
+    font-family: "Manrope", sans-serif;
+}
+
+.download {
+    
+    background-color: #FFCE31;
+    margin: 0;
+    padding: 150px;
+    font-size: 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+
+
+
+.footer-of-footer{
+    margin: 100px;
+    
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left h2{
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+
+.left{
+    padding-bottom: 50px;
+    line-height: 36px;
+}
+
+.left p{
+    font-size: 22px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.column1, .column2, .column3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
